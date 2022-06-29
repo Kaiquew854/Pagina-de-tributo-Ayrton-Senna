@@ -402,6 +402,7 @@ footer .container{
 
 /*RESPONSIVIDADE*/
 
+
 @media(max-width:997px) {
     .banner_headline h1 {
         font-size: 35px;
@@ -430,9 +431,7 @@ footer .container{
     }
 
     /* muda altura do header*/
-    header {
-        height: auto;
-    }
+    
 
     .menuMobile {
         display: flex;
@@ -447,14 +446,100 @@ footer .container{
         font-size:12px ;
     }
 
-}
-@media(max-width:394px){
-    .ASenna,.el-img,.el-img img{
-        height: auto;
-        max-width: 300px;
+    .ASenna{
+        justify-content: center;
+    }
+    .img2 img{
+        display: none; 
+    }
+    .Titulo_sect div{
+        width: 100%;
+        font-size: 20px;
     }
 
-    .img2 img{
-        max-width: 200px;
+    .footer_title{
+        font-size: 13PX;
     }
+    .referencias li a {
+        font-size: 13px;
+    }
+
+    .referencias li a {
+    color: #ffffffe7;
+    text-decoration: none;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.techs img, .social_media img {
+    width: 25px;
+    height: 25px;
+}
+
+}
+@media(max-width: 394px){
+    .ASenna,.el-img,.el-img img{
+        height: auto;
+        max-width: 100%;
+        text-align: center;
+    }
+    .ASenna{
+        justify-content: center;
+    }
+    .img2 img{
+        display: none; 
+    }
+    .Titulo_sect div{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #Estatisticas .lista_de_estatisticas li{
+        font-size: 15px;
+    }
+    
+    .icone_lista {
+        height: 20px;
+        width: 20px;
+    }
+    .icone_lista img {
+        height: 10px;
+        width: 10px;
+    }
+
+    .banner_headline h1 {
+        font-size: 20px;
+    }
+
+    .banner_headline {
+        padding: 20px;
+    }
+
+    .footer_title{
+        font-size: 11PX;
+    }
+    .referencias li a {
+        font-size: 11px;
+    }
+
+    .referencias li a {
+    color: #ffffffe7;
+    text-decoration: none;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.techs img, .social_media img {
+    width: 20px;
+    height: 20px;
+}
+header{
+    height: 21px;
+}
+.menuMobile {
+    width: 21px;
+    height: 21px;
+}
+.logo img {
+    width: 21px;
+    height: 21px;
+}
 }

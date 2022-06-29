@@ -22,6 +22,8 @@ header {
     display: flex;
     justify-content: space-between;
     width: 990px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 

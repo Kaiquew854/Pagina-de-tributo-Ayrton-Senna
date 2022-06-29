@@ -70,7 +70,7 @@ nav a:hover {
 #banner {
     display: flex;
     justify-content: center;
-    background-image: url('https://github.com/Kaiquew854/Pagina-de-tributo-Ayrton-Senna/main/Assets/images/capAyrton.jpg');
+    background-image: url('https://github.com/Kaiquew854/Pagina-de-tributo-Ayrton-Senna/Assets/images/capAyrton.jpg');
     background-position: center;
     background-size: cover;
     height: 520px;

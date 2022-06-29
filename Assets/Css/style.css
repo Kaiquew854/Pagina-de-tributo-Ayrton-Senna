@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #23282b;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #413d3d;
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    text-transform: uppercase;
+    color: #f7f1f1;
+    cursor: pointer;
+}
+
+nav a:hover {
+    background-color: #04724D;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/capAyrton.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 520px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.banner_headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.banner_headline h1 {
+    font-family: 'Comfortaa', cursive;
+    color: #f7f1f1;
+    max-width: 350px;
+    font-size: 40px;
+    text-shadow: 0px 1px 0px #555555;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.banner_headline h5 {
+    color: #f7f1f1;
+    max-width: 350px;
+    font-size: 12px;
+    text-shadow: 0px 1px 0px #555555;
+    margin: 0;
+    padding: 0;
+}
+
+.Titulo_sect {
+    height: 55px;
+    order: -1;
+    flex-basis: 990px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Titulo_sect div {
+    display: flex;
+    font-family: 'Comfortaa', cursive;
+    color: #E6AF2E;
+    font-size: 26px;
+    border-top: 1px solid rgb(58, 58, 58);
+    width: 38%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.Titulo_sect .txt_sobre {
+    border-top: none;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.ASenna{ 
+   display: flex;
+   justify-content: center;
+}
+
+.el-img{
+    text-align: center;
+    max-height: 500px;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+.texto-sobre-Ayrton {
+    margin-top: 37px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: lighter;
+    font-size: 21PX;
+    color: #f7f1f1;
+    font-style: italic;
+}
+
+
+article img {
+    height: 500px;
+    max-width: 391px;
+}
+
+#Estatisticas {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    background-color: #00000000;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.icone_lista img {
+    height: 20px;
+    width: 20px;
+}
+
+.icone_lista {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #053B06;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: #f2f8f6;
+}
+.lista_de_estatisticas ul li span{
+    color: #7899D4;
+    font-weight: bold;
+}
+.lista_de_estatisticas ul li strong{
+    color: #139A43;
+}
+
+#Estatisticas .lista_de_estatisticas  ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-evenly;
+
+}
+#Estatisticas .lista_de_estatisticas  li {
+    display: flex;
+    align-items: center;
+}
+
+
+#Estatisticas .lista_de_estatisticas li {
+    font-family: 'Comfortaa', cursive;
+    color: #f7f1f1;
+    font-size: 21px;
+    margin: 10px;
+}
+
+#Estatisticas .lista_de_estatisticas span {
+    padding-left: 10px;
+    
+}
+
+.lista_de_estatisticas {
+    flex-grow: 1;
+}
+
+
+.img2 {
+    flex-grow: 1;
+    min-height: 50px;
+    min-width: 50px;
+}
+
+.img2 img {
+    background-size: cover;
+}
+
+#Estatisticas .container {
+    flex-wrap: wrap;
+}
+
+#acidente {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+#acidente .container {
+    flex-wrap: wrap;
+}
+
+.MtAyton img {
+    width: 100%;
+    min-width: 50px;
+}
+
+.MtAyton {
+    /*ITEM2*/
+    flex-grow: 1;
+    max-width: 990px;
+    min-width: 50px;
+
+}
+
+.texto_acidente {
+    /*ITEM3*/
+    flex-grow: 1;
+    font-family: 'Dosis', sans-serif;
+    font-weight: lighter;
+    font-size: 21PX;
+    color: #f7f1f1;
+    font-style: italic;
+}
+
+.video {
+    width: 100%;
+    max-width: 990px;
+    margin: auto;
+}
+
+.video-area {
+    position: relative;
+    height: 0px;
+    padding: 0px 0px 56.25%;
+    /*56.25% do total da area disponivel nocaso é 600px*/
+}
+
+.video-area iframe {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+}
+
+
+.menuMobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    
+}
+
+.mm_line {
+    height: 3px;
+    background-color: #04724D;
+}
+
+footer {
+    display: flex;
+    justify-content:center;
+    margin-top: 60px;
+}
+
+footer .container{
+    flex-wrap: wrap;
+    background-color: #00000034;
+    justify-content: space-between;
+}
+
+
+.footer_title{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14PX;
+    margin-bottom: 15PX;
+    padding-top: 15px;
+}
+
+.referencias{
+    padding-left: 5px;
+}
+
+.referencias li a{
+    color: #ffffffe7;
+    text-decoration: none;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.referencias a:hover{
+    color: #c5c5c5;
+}
+.referencias li{
+    margin-bottom: 15px;
+}
+.techs img, .social_media img{
+    width: 30px;
+    height: 30px;
+} 
+
+.social_media{
+    min-width: 150px;
+}
+
+.tech-icon{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.s_media_icon{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: 5px;
+}
+.cp_right{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cpr_txt{
+    width: 54%;
+    text-align: center;
+    padding-top: 10px;
+    border-top:1px solid rgb(58, 58, 58) ;
+    color: #c5c5c5;
+}
+
+/*RESPONSIVIDADE*/
+
+@media(max-width:997px) {
+    .banner_headline h1 {
+        font-size: 35px;
+    }
+
+    .banner_headline {
+        padding: 20px;
+    }
+}
+
+@media(max-width:535px) {
+
+    /* tracinhos no menu*/
+    header .container {
+        flex-direction: row;
+    }
+
+    /* muda o direction do ul*/
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #727272;
+    }
+
+    /* muda altura do header*/
+    header {
+        height: auto;
+    }
+
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .logo {
+        padding: 20px;
+    }
+    .cpr_txt{
+        font-size:12px ;
+    }
+
+}
+@media(max-width:394px){
+    .ASenna,.el-img,.el-img img{
+        height: auto;
+        max-width: 300px;
+    }
+
+    .img2 img{
+        max-width: 200px;
+    }
+}

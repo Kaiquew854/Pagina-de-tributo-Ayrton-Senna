@@ -544,4 +544,8 @@ header{
     width: 21px;
     height: 21px;
 }
+
+.logo {
+    padding: 0;
+}
 }
